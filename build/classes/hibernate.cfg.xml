@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="forms.Kullanici" />
+		<mapping class="forms.Grub" />
+		<mapping class="forms.Girisler" />
+		<mapping class="forms.Donem" />
+		<mapping class="forms.KitabAbone" />
+		<mapping class="forms.KitabOkuma" />
+		<mapping class="forms.EvradKisim" />
+		<mapping class="forms.EvradAbone" />
+		<mapping class="forms.EvradOkuma" />
+		<mapping class="forms.EvradBolumleme" />
+	</session-factory>
+</hibernate-configuration>
